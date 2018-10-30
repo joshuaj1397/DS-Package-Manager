@@ -1,0 +1,16 @@
+/* margin: top right bottom left */
+
+.description-card {
+    width: 35%;
+    margin: 0px 0px 0px 50px;
+}
+
+.codepreview-card {
+    width: 35%;
+    margin: 50px 0px 0px 50px;
+}
+
+.usealgorithm-card {
+    width: 35%;
+    margin: 50px 0px 0px 50px;
+}

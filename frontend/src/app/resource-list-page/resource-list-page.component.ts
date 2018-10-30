@@ -22,11 +22,11 @@ const ELEMENT_DATA_ALGO: PeriodicElement[] = [
 ];
 
 @Component({
-  selector: 'app-resource-list',
-  templateUrl: './resource-list.component.html',
-  styleUrls: ['./resource-list.component.css']
+  selector: 'app-resource-list-page',
+  templateUrl: './resource-list-page.component.html',
+  styleUrls: ['./resource-list-page.component.css']
 })
-export class ResourceListComponent {
+export class ResourceListPageComponent {
 
   constructor() { }
 
@@ -34,4 +34,9 @@ export class ResourceListComponent {
   dataSource = ELEMENT_DATA_ALGO;
   resourceType = 'Algorithm';
 
+  navDetailedAlgo(row) {
+    // we will send id (in this case the name of the element) and hit the database using
+    // the id (name) to look up the information that will go on that page
+    console.log(row.name);
+  }
 }

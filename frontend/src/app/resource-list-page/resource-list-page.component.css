@@ -1,0 +1,13 @@
+/* margin: top right bottom left */
+
+table {
+    width: 100%;
+}
+
+.resource-togglegroup {
+    margin: 0 50px;
+}
+
+.createnew-button {
+    margin: 0px 50px 0px 50px;
+}

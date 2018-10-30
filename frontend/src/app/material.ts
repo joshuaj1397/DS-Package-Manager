@@ -3,6 +3,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatSelectModule} from '@angular/material/select';
+import {MatCardModule} from '@angular/material/card';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { NgModule } from '@angular/core';
 
@@ -13,7 +16,10 @@ import { NgModule } from '@angular/core';
         MatToolbarModule,
         MatMenuModule,
         MatTableModule,
-        MatButtonToggleModule
+        MatButtonToggleModule,
+        MatSelectModule,
+        MatCardModule,
+        MatTabsModule,
     ],
     exports: [ 
         MatButtonModule, 
@@ -21,7 +27,10 @@ import { NgModule } from '@angular/core';
         MatToolbarModule,
         MatMenuModule,
         MatTableModule,
-        MatButtonToggleModule
+        MatButtonToggleModule,
+        MatSelectModule,
+        MatCardModule,
+        MatTabsModule,
     ]
 })
 export class MaterialModule { }
