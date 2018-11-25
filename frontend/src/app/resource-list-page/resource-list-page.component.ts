@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-resource-list-page',
   templateUrl: './resource-list-page.component.html',
