@@ -14,8 +14,6 @@ import { ResourceListPageComponent } from './resource-list-page/resource-list-pa
 import { DatasetDetailComponent } from './dataset-detail/dataset-detail.component';
 import { AlgorithmListComponent } from './resource-list-page/algorithm-list/algorithm-list.component';
 import { DatasetListComponent } from './resource-list-page/dataset-list/dataset-list.component';
-import { AlgorithmSingleComponent } from './resource-list-page/algorithm-list/algorithm-single/algorithm-single.component';
-import { UploadAlgoComponent } from './resource-list-page/algorithm-list/upload-algo/upload-algo.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +23,6 @@ import { UploadAlgoComponent } from './resource-list-page/algorithm-list/upload-
     DatasetDetailComponent,
     AlgorithmListComponent,
     DatasetListComponent,
-    AlgorithmSingleComponent,
-    UploadAlgoComponent,
   ],
   imports: [
     BrowserModule,
