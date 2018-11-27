@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material';
 import { MatIconModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
-import { AngularFileUploaderModule } from "angular-file-uploader";
 import { HttpClientModule } from '@angular/common/http';
 // Components
 import { AlgorithmDetailComponent } from './algorithm-detail/algorithm-detail.component';
@@ -31,7 +30,6 @@ import { DatasetListComponent } from './resource-list-page/dataset-list/dataset-
     MaterialModule,
     MatIconModule,
     FormsModule,
-    AngularFileUploaderModule,
     HttpClientModule,
   ],
   providers: [],

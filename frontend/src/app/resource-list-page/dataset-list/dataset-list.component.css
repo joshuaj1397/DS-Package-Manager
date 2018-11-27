@@ -1,5 +1,7 @@
 .table {
     width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
 }
 
 .upload-button {
@@ -8,6 +10,7 @@
 
 tr.datset-row:hover {
     background: #f5f5f5;
+    cursor: pointer;
 }
 
 mat-sidenav {

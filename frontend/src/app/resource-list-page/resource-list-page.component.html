@@ -1,15 +1,19 @@
 <mat-toolbar color="primary" class="fixed-header">
-  <mat-toolbar-row>
-    <span class="top-toolbar-item global-margins" routerLink="/" routerLinkActive="active">DS Package Manager</span>
-    <span class="top-toolbar-item">{{User}}</span>
+<mat-toolbar-row color="primary">
+    <span class="top-toolbar-item global-margins" 
+      routerLink="/" 
+      routerLinkActive="active">
+      <img src="https://i.imgur.com/LDKBbKo.png" style="margin-left:-30px" height="4%" width="4%">
+    </span>
+    <a style="margin-left:-800px">DS Package Manager</a>
   </mat-toolbar-row>
-  <mat-toolbar-row class="nav-row" style="z-index:999">
-    <nav mat-tab-nav-bar backgroundColor="primary" style="width: 360px" class="global-margins">
+</mat-toolbar>
+<mat-toolbar style="margin-top:60px">
+    <nav mat-tab-nav-bar style="width: 100%" style="margin-left:-5px" >
       <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.path" routerLinkActive #rla="routerLinkActive"
         [active]="rla.isActive" style="width:180px">
         {{link.label}}
       </a>
     </nav>
-  </mat-toolbar-row>
 </mat-toolbar>
 <router-outlet></router-outlet>
