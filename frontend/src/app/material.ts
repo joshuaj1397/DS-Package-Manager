@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatInputModule} from '@angular/material/input';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 import { NgModule } from '@angular/core';
 
@@ -32,6 +33,7 @@ import { NgModule } from '@angular/core';
         MatSidenavModule,
         MatInputModule,
         MatDividerModule,
+        MatSnackBarModule,
     ],
     exports: [ 
         MatButtonModule, 
@@ -49,6 +51,7 @@ import { NgModule } from '@angular/core';
         MatSidenavModule,
         MatInputModule,
         MatDividerModule,
+        MatSnackBarModule,
     ]
 })
 export class MaterialModule { }
