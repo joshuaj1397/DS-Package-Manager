@@ -7,7 +7,7 @@ import { AlgorithmListComponent } from './resource-list-page/algorithm-list/algo
 import { DatasetListComponent } from './resource-list-page/dataset-list/dataset-list.component';
 
 const routes: Routes = [
-  { path: '', component: ResourceListPageComponent },
+  { path: '', component: AlgorithmListComponent },
   { path: 'algorithms', component: AlgorithmListComponent },
   { path: 'datasets', component: DatasetListComponent },
 ];
