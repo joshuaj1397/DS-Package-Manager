@@ -1,0 +1,37 @@
+.table {
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+
+.upload-button {
+    float: right;
+}
+
+tr.algo-row:hover {
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+mat-sidenav {
+    width: 300px
+}
+
+.spacer {
+    height: 8px;
+}
+
+.sidenav-card {
+    width: 239px;
+    margin-left: 16px;
+    padding: 16px;
+}
+
+mat-list-item.version-item:hover {
+    background: #f5f5f5;
+}
+
+.sidenav {
+    height: 500px;
+    height: calc(100vh - 112px);
+}

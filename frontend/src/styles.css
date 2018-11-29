@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+/* margin: top right bottom left */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.top-toolbar-spacer {
+    flex: 1 1 auto;
+}
+.top-toolbar-item {
+    margin: 0 20px;
+}
+.page-title {
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.global-margins {
+    margin: 0px 32px;
+}
+
+.persistent-header-spacer {
+    margin-top: 0px;
+}
+
+.form-field {
+    background: #f5f5f5;
+}
