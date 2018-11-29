@@ -22,9 +22,9 @@ mat-sidenav {
 }
 
 .sidenav-card {
-    width: 220px;
-    margin-left: 10px;
-    
+    width: 239px;
+    margin-left: 16px;
+    padding: 16px;
 }
 
 mat-list-item.version-item:hover {
