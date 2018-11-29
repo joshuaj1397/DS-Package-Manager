@@ -25,10 +25,10 @@ export class DatasetListComponent implements OnInit {
   constructor(private http: HttpClient, public snackBar: MatSnackBar) { }
   
   DATASET_DATA: Dataset[] = [
-    { dataName: 'Datset1', description: 'I am a dataset that stores stuff.' },
-    { dataName: 'Datset2', description: 'I store some stuff!' },
-    { dataName: 'Datset3', description: 'I store more stuff!' },
-    { dataName: 'Datset4', description: 'I store even more stuff!' },
+    { dataName: 'Dataset 1', description: 'I am a dataset that stores stuff.' },
+    { dataName: 'Dataset 2', description: 'I store some stuff!' },
+    { dataName: 'Dataset 3', description: 'I store more stuff!' },
+    { dataName: 'Dataset 4', description: 'I store even more stuff!' },
   ];
 
   // DATASET_DATA = {
